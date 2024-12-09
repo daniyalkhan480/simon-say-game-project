@@ -1,0 +1,60 @@
+h1,h3{
+    text-align: center;
+}
+
+.boxes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    height: 150px;
+    width: 150px;
+    border: 10px solid black;
+    border-radius: 20px;
+    text-align: center;
+}
+
+
+.box1{
+    background-color: brown;
+    margin: 1rem;
+}
+
+.box2{
+    background-color: cadetblue;
+}
+.box3{
+    background-color: chocolate;
+    margin: 1rem;
+}
+.box4{
+    background-color: cornflowerblue;
+}
+
+.boxFlash{
+    background-color: #fff;
+}
+
+.boxClick{
+    background-color: darkcyan;
+}
+
+/* 
+.boxBlink{
+    animation: boxBlink 1s ease-in-out 0s;
+}
+
+
+@keyframes boxBlink{
+    0%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 0.1;
+    }
+    100%{
+        opacity: 1;
+    }
+} */
